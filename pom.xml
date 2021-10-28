@@ -6,8 +6,7 @@
 	<packaging>war</packaging>
 	<version>0.0.5</version>
 	<name>my-app</name>
-	
-	<!-- Demo on Github Webhooks-->
+
 
 	<url>http://maven.apache.org</url>
 
@@ -62,14 +61,6 @@
         </plugin>
     </plugins>
 	<plugin>
- <artifactId>maven-war-plugin</artifactId>
- <version>2.2</version>
- <configuration>
-  <source>1.7</source>
-  <target>1.7</target>
-  <failOnMissingWebXml>false</failOnMissingWebXml>
- </configuration>
-</plugin>
 </build>
 	
 </project>
