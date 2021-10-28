@@ -5,8 +5,9 @@
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.5</version>
-	<name>my-app</name>
-
+	<name>ERROR</name>
+	
+	<!-- Demo on Github Webhooks-->
 
 	<url>http://maven.apache.org</url>
 
@@ -34,12 +35,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexus</id>
-		    <url>http://167.179.102.254:8081//repository/maven-snapshots/</url>
+		    <url>http://13.233.125.37:8081/repository/maven-snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexus</id>
-		    <url>http://167.179.102.254:8081//repository/maven-releases/</url>
+		    <url>http://13.233.125.37:8081/repository/maven-releases/</url>
 		</repository>
   	</distributionManagement>
 	
@@ -60,7 +61,6 @@
             <version>2.19</version>
         </plugin>
     </plugins>
-	<plugin>
 </build>
 	
 </project>
