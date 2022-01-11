@@ -15,7 +15,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <url>http://maven.apache.org</url>  
   
 	
-  <dependencies>  
+  <dependencies>   
     <dependency>  
       <groupId>junit</groupId>  
       <artifactId>junit</artifactId>  
